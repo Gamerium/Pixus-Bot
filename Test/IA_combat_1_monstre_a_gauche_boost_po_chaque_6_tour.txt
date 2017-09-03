@@ -1,0 +1,7 @@
+﻿SPELL::Tir eloigné [Boost]::454x372::6::1
+TARGET::505x336
+SPELL::Flèche glacée [Attaque]::415x372::6::1
+TARGET::475x340
+SPELL::Flèche magique [Attaque]::358x372::1::2
+TARGET::478x340
+WAIT::1000

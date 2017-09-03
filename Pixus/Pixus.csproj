@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC07A3A1-E934-494E-B3FB-A37F6CBD948E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pixus</RootNamespace>
+    <AssemblyName>Pixus</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddResourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddResourceForm.Designer.cs">
+      <DependentUpon>AddResourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSpellForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSpellForm.Designer.cs">
+      <DependentUpon>AddSpellForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BotForm.Designer.cs">
+      <DependentUpon>BotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CheckGroupBox.Designer.cs">
+      <DependentUpon>CheckGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\AntiBot.cs" />
+    <Compile Include="Core\App.cs" />
+    <Compile Include="Core\Bot.cs" />
+    <Compile Include="Core\FightStuffs\Fight.cs" />
+    <Compile Include="Core\Game.cs" />
+    <Compile Include="Core\History.cs" />
+    <Compile Include="Core\FightStuffs\IA.cs" />
+    <Compile Include="Core\JobStuffs\GoBanque.cs" />
+    <Compile Include="Core\JobStuffs\Job.cs" />
+    <Compile Include="Core\Log.cs" />
+    <Compile Include="Core\Map.cs" />
+    <Compile Include="Core\Minimap.cs" />
+    <Compile Include="Core\Move.cs" />
+    <Compile Include="Core\Pod.cs" />
+    <Compile Include="Core\JobStuffs\Resource.cs" />
+    <Compile Include="Core\Popup.cs" />
+    <Compile Include="Core\Script.cs" />
+    <Compile Include="Core\Settings.cs" />
+    <Compile Include="Core\FightStuffs\Spell.cs" />
+    <Compile Include="Core\Trajet.cs" />
+    <Compile Include="CustomProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomProgressBar.Designer.cs">
+      <DependentUpon>CustomProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ImageGroupBox.Designer.cs">
+      <DependentUpon>ImageGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lib\ComboBoxItem.cs" />
+    <Compile Include="Lib\Connection.cs" />
+    <Compile Include="Lib\EmbedWindow.cs" />
+    <Compile Include="Lib\FakeClick.cs" />
+    <Compile Include="Lib\ImageHelper.cs" />
+    <Compile Include="Lib\LockBitmap.cs" />
+    <Compile Include="Lib\Pixel.cs" />
+    <Compile Include="Lib\Tools.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToggleSwitch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToggleSwitch.Designer.cs">
+      <DependentUpon>ToggleSwitch.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddResourceForm.resx">
+      <DependentUpon>AddResourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSpellForm.resx">
+      <DependentUpon>AddSpellForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BotForm.resx">
+      <DependentUpon>BotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToggleSwitch.resx">
+      <DependentUpon>ToggleSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_icon_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bot_play_resume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bot_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bot_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\embed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_picker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\position_to_position.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warrior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_rappel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door-open-exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse-select-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mouse-select-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hourglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock_frame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_up3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursor_arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backpack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_star.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+Pixel bot for Dofus game written in C# (using VS 2013)
+
+- what the bot can actually do :
++ Follow/repeat a specified route/path in game.
++ Job like harvest, using a predefined points/pixels list.
++ Fight, using a basic [Spell/Target] AI list.
+
++ what the bot doesn't do yet :
+- DD management.
+- Auto fighting mode (include searching for monsters).
+- feel free to contribute any good ideas...
+
+
+PS: This project is only for learning purpose.
+
+Edit: This bot will probably not work on the latest game version (because of the graphic redesign of the game), but with some adjustments you can make it work.

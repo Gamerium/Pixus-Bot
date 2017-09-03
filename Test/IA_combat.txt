@@ -1,0 +1,3 @@
+﻿SPELL::Flèche magique [Attaque]::358x370::1::1
+TARGET::504x340
+WAIT::1000

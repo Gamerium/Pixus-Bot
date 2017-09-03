@@ -1,0 +1,8 @@
+AREA::D:\Pixus Bot\Pixus\Pixus\bin\Debug\Zone_[5,-26].txt
+UP::380
+AREA::D:\Pixus Bot\Pixus\Pixus\bin\Debug\Zone_[5,-27].txt
+RIGHT::250
+AREA::D:\Pixus Bot\Pixus\Pixus\bin\Debug\Zone_[6,-27].txt
+DOWN::380
+AREA::D:\Pixus Bot\Pixus\Pixus\bin\Debug\Zone_[6,-26].txt
+LEFT::250

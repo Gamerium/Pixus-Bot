@@ -1,0 +1,66 @@
+E:\Pixus\Pixus\bin\Debug\Pixus.exe
+E:\Pixus\Pixus\bin\Debug\Pixus.pdb
+E:\Pixus\Pixus\obj\Debug\Pixus.BotForm.resources
+E:\Pixus\Pixus\obj\Debug\Pixus.ImageDetectionForm.resources
+E:\Pixus\Pixus\obj\Debug\Pixus.MainForm.resources
+E:\Pixus\Pixus\obj\Debug\Pixus.Properties.Resources.resources
+E:\Pixus\Pixus\obj\Debug\Pixus.csproj.GenerateResource.Cache
+E:\Pixus\Pixus\obj\Debug\Pixus.exe
+E:\Pixus\Pixus\obj\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.exe
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus - Backup 5\Pixus\bin\Debug\Pixus.exe
+D:\Pixus Bot\Pixus - Backup 5\Pixus\bin\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.csprojResolveAssemblyReference.cache
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.BotForm.resources
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.ImageDetectionForm.resources
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.MainForm.resources
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.Properties.Resources.resources
+D:\Pixus Bot\Pixus - Backup 5\Pixus\obj\Debug\Pixus.csproj.GenerateResource.Cache
+D:\Pixus Bot\Pixus\Pixus\bin\Debug\Pixus.exe
+D:\Pixus Bot\Pixus\Pixus\bin\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.AddResourceForm.resources
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.BotForm.resources
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.Properties.Resources.resources
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.SettingsForm.resources
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.ToggleSwitch.resources
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.csproj.GenerateResource.Cache
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.exe
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1\Pixus\obj\Debug\Pixus.exe
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1\Pixus\obj\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.exe
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\bin\Debug\Pixus.exe
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\bin\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.AddResourceForm.resources
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.BotForm.resources
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.ImageDetectionForm.resources
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.Properties.Resources.resources
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.SettingsForm.resources
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.ToggleSwitch.resources
+D:\Pixus Bot\Pixus v1.0.1 - Backup 1 - Copy\Pixus\obj\Debug\Pixus.csproj.GenerateResource.Cache
+D:\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.AddSpellForm.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.AddResourceForm.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.AddSpellForm.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.BotForm.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.Properties.Resources.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.SettingsForm.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.ToggleSwitch.resources
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.csproj.GenerateResource.Cache
+D:\Pixus Bot\Pixus - Copy\Pixus\bin\Debug\Pixus.exe
+D:\Pixus Bot\Pixus - Copy\Pixus\bin\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.exe
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.pdb
+D:\Pixus Bot\Pixus - Copy\Pixus\obj\Debug\Pixus.csprojResolveAssemblyReference.cache
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\bin\Debug\Pixus.exe
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\bin\Debug\Pixus.pdb
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.AddResourceForm.resources
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.AddSpellForm.resources
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.BotForm.resources
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.Properties.Resources.resources
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.SettingsForm.resources
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.ToggleSwitch.resources
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.csproj.GenerateResource.Cache
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.exe
+D:\2.prg\[C#]\Pixus Bot\Pixus\Pixus\obj\Debug\Pixus.pdb
